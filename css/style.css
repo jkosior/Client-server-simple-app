@@ -1,0 +1,51 @@
+body {
+    background-color:black;
+}
+
+p {
+    font-family: Lucida Console, Lucida Sans;
+    color: silver;
+}
+
+.container{
+    margin:0 auto;
+    width:50%;
+}
+
+.centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back {
+    width:40%;
+    height:60%;
+    background-color: rgb(37, 38, 40, 0.4);
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    overflow-y: auto;
+}
+
+.buttonStart{
+    transform: translate(-50%, -50%);
+    position: fixed;
+    bottom:15%;
+    left:50%;
+    width:10%;
+    height:5%;
+    background-color:black;
+    color:silver;
+    border: none;
+}
+
+.buttonStart:hover{
+    background-color:grey;
+    border: 1px solid white;
+}
+
+p.notFound{
+    font-size: 7em;
+    text-align: center;
+}
